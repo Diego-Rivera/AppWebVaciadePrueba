@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 05/30/2022 12:25:51
+-- Date Created: 05/30/2022 12:34:47
 -- Generated from EDMX file: C:\Users\laboratorio\Desktop\AppWeb\AppWebVaciadePrueba\Models\ModeloDatos.edmx
 -- --------------------------------------------------
 
@@ -24,6 +24,9 @@ GO
 
 IF OBJECT_ID(N'[dbo].[AlumnoSet]', 'U') IS NOT NULL
     DROP TABLE [dbo].[AlumnoSet];
+GO
+IF OBJECT_ID(N'[dbo].[AsignaturaSet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[AsignaturaSet];
 GO
 
 -- --------------------------------------------------

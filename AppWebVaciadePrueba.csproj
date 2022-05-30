@@ -113,6 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DocentesController.cs" />
     <Compile Include="Controllers\EjmploController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -122,6 +123,9 @@
       <DependentUpon>ModeloDatos.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Asignatura.cs">
+      <DependentUpon>ModeloDatos.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Docente.cs">
       <DependentUpon>ModeloDatos.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ModeloDatos.Context.cs">
@@ -156,6 +160,11 @@
     <Content Include="Views\Ejmplo\Index.cshtml" />
     <Content Include="Views\Home\Personas.cshtml" />
     <Content Include="Views\Home\Alumno.cshtml" />
+    <Content Include="Views\Docentes\Create.cshtml" />
+    <Content Include="Views\Docentes\Delete.cshtml" />
+    <Content Include="Views\Docentes\Details.cshtml" />
+    <Content Include="Views\Docentes\Edit.cshtml" />
+    <Content Include="Views\Docentes\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

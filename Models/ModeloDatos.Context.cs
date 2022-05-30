@@ -27,5 +27,6 @@ namespace AppWebVaciadePrueba.Models
     
         public virtual DbSet<Alumno> AlumnoSet { get; set; }
         public virtual DbSet<Asignatura> AsignaturaSet { get; set; }
+        public virtual DbSet<Docente> Docente { get; set; }
     }
 }

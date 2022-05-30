@@ -6,7 +6,8 @@
     <edmx:Diagrams>
       <Diagram DiagramId="9a3d9fb86aad43e28b401e03d37d7051" Name="Diagram1" >
         <EntityTypeShape EntityType="ModeloDatos.Alumno" Width="1.5" PointX="1.875" PointY="0.75" />
-        <EntityTypeShape EntityType="ModeloDatos.Asignatura" Width="1.5" PointX="6" PointY="0.875" />
+        <EntityTypeShape EntityType="ModeloDatos.Asignatura" Width="1.5" PointX="4" PointY="0.5" />
+        <EntityTypeShape EntityType="ModeloDatos.Docente" Width="1.5" PointX="7" PointY="2.375" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
