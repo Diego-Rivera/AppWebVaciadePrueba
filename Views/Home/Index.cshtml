@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = null;
+    int[] datos=new int[4]; //Investigar como sacar el arreglo de datos desde acá
+
+    int p = 0;
+    foreach(int x in ViewData["Edad"])
+    {
+        datos[p] = x;
+        p++;
+    }
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div> 
+        <h1>Bienvenido a mi página web</h1>
+        <h2> El nombre del usuario es: @ViewBag.NombreUsuario</h2>
+        <h2>La edad del usuario es: datos[0] años</h2>
+    </div>
+</body>
+</html>
