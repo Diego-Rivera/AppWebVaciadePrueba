@@ -8,6 +8,8 @@ namespace AppWebVaciadePrueba.Controllers
 {
     public class HomeController : Controller
     {
+        Models.ModeloDatosContainer contexto=new Models.ModeloDatosContainer();
+
         // GET: Home
         public ActionResult Index()
         {
@@ -26,6 +28,17 @@ namespace AppWebVaciadePrueba.Controllers
         public string Saludar(int rut)
         {
             return "Bienvendo amigo tu RUT es: " + rut;
+        }
+
+        public ActionResult Personas()
+        {
+            return View();
+        }
+
+        public ActionResult Alumno()
+        {
+            
+            return View(contexto.AlumnoSet);
         }
     }
 }
